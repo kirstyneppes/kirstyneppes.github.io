@@ -1,0 +1,81 @@
+<style>
+
+body {
+   font-size: 1rem;
+   font-family: "Lora", sans-serif;
+   color: black;
+   letter-spacing: 7px;
+   word-spacing: 1px;
+   background-color: white;
+   background-image: url(MTBackground.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+}
+span[class="name"] {
+   display: block;
+   font-family: "Cheddar Jack", serif;
+   font-size: 2.1em;
+}
+header {
+   text-decoration: none;
+   background-color: rgba(255,200,200,.7);
+   font-size: 1.5em;
+   color: black;
+   text-align: center;
+   border: 3px solid darkseagreen;
+   margin: 6px;
+}
+body nav {
+   margin: 0 auto 5px auto;
+   width: 70%;
+   height: 70px;
+}
+nav ul{
+   list-style-type: none;
+   text-align: center;
+   font-size: 1.5rem;
+}
+nav ul li {
+   display: inline-block;
+   transition: 300ms;
+   border-right: 1px solid pink;
+   line-height: 70px;
+   padding: 0 20px;
+}
+nav ul li:first-of-type {
+   border-left: 1px solid pink;
+}
+nav ul li:hover {
+   background-color: rgba(255,200,200,.7);
+}
+nav a:hover {
+   text-decoration: overline;
+}
+nav a {
+   text-decoration: none;
+   color: black;
+   display: inline;
+   line-height: 34px;
+}
+nav {
+   height: 34px;
+   padding-bottom: 5px;
+}
+nav ul {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+nav ul li {
+   width: 18%;
+   background-color: rgba(255,255,255,.7);
+}
+main {
+   background-color: rgba(255,255,255,.8);
+   margin: 1px;
+}
+main li {
+   list-style-type: none;
+}
+</style>

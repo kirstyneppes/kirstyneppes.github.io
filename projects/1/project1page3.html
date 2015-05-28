@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Thatcher Calendar</title>
+      <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/genome" rel="stylesheet" type="text/css"/>
+      <link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="base.css">
+      <style>
+h1 a {
+   text-decoration: none;
+   color: black;
+}
+body {
+   font-size: 1rem;
+   font-family: 'Genome', serif;
+   color: black;
+   letter-spacing: 7px;
+   word-spacing: 1px;
+   background-color: white;
+   background-image: url(MTBackground.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+}
+span[class="name"] {
+   display: block;
+   font-family: 'Dawning of a New Day', serif;
+   font-size: 2.5em;
+}
+header {
+   background-color: rgba(255,200,200,.7);
+   font-size: 1.3em;
+   color: black;
+   text-align: center;
+   border: 3px solid pink;
+   margin: 30px auto;
+}
+h2 {
+   font-family: 'Dawning of a New Day', serif;
+   font-size: 2.5rem;
+   margin: auto;
+}
+body nav {
+   font-family: 'Genome', serif;
+   margin: 30px auto;
+   width: 70%;
+   height: 70px;
+}
+nav ul{
+   list-style-type: none;
+   text-align: center;
+   font-size: 1.5rem;
+}
+nav ul li {
+   display: inline-block;
+   transition: 300ms;
+   border-right: 1px solid pink;
+   line-height: 70px;
+   padding: 0 20px;
+}
+nav ul li:first-of-type
+{
+   border-left: 1px solid pink;
+}
+nav ul li:hover {
+   background-color: rgba(255,200,200,.7);
+}
+nav a:hover {
+   text-decoration: overline;
+}
+nav a {
+   text-decoration: none;
+   color: black;
+   display: inline;
+   line-height: 34px;
+}
+nav {
+   height: 34px;
+   padding-bottom: 5px;
+}
+nav ul {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+nav ul li {
+   width: 18%;
+   background-color: rgba(255,255,255,.7);
+}
+main {
+   background-color: rgba(255,255,255,.8);
+   margin: 1px;
+   font-weight: bold;
+}
+main li {
+   list-style-type: none;
+}
+footer p{
+   text-align: center;
+   font-size: .8rem;
+   display: block;
+}
+footer {
+   margin: 250px auto auto;
+   background-color: rgba(255,255,255,.8);
+   width: 100%;
+}
+div[id=container] {
+   margin: 3em auto  0 3em;
+   padding-bottom: 3em;
+   background-color: rgba(255 255 255 .8);
+}
+div[id=month] {
+   border-collapse: collapse;
+   margin-left: 2em;
+}
+div[id=month] thead {
+   background-color: rgba(255 200 200 .8);
+}
+div[id=month] td {
+   width: 7em;
+   height: 7em;
+   padding: .2em;
+   vertical-align: top;
+   overflow: auto;
+}
+td div[class=day] {
+   width: 7em;
+   height: 6em;
+   letter-spacing: 4px;
+   overflow:auto;
+   margin-top: 0;
+}
+table[id=month] tbody [class=weekend] {
+   background-color:#ded;
+}
+table[id=month] tbody .next, #month tbody .previous {
+   background-color:#ddd;
+}
+div[id=container] h1 {
+   margin: 0 0 .5em .5em;
+   font: 2.5rem 'Genome', sans-serif;
+   font-weight: bold;
+   color: black;
+}
+div[id=month] th {
+   font: 1em 'Genome', sans-serif;
+   font-weight: bold;
+}
+p {
+   margin-top: 0;
+   font-size: .9rem;
+}
+
+      </style>
+   </head>
+
+   <body>
+      <header>
+         <h1><a href="project1page0.html">The House of <span class="name">Margaret Thatcher.</span></a></h1>
+      </header>
+      <nav>
+         <ul><li><a href="project1page1.html">About</a></li><li><a href="project1page2.html">Stories</a></li><li><a href="project1page3.html">Calendar</a></li>
+      </nav>
+      <main>
+         <h2>Calendar</h2>
+         <div id="container">
+         <h1>May 2015</h1>
+         <table id="month">
+            <thead>
+               <tr>
+                  <th class="weekend">Sunday</th>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th class="weekend">Saturday</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td class="weekend previous"><span class="date">26</span><div class="day"></div></td>
+                  <td class="previous"><span class="date">27</span><div class="day"></div></td>
+                  <td class="previous"><span class="date">28</span><div class="day"></div></td>
+                  <td class="previous"><span class="date">29</span><div class="day"></div></td>
+                  <td class="previous"><span class="date">30</span><div class="day"></div></td>
+                  <td><span class="date">1</span><div class="day"></div></td>
+                  <td class="weekend"><span class="date">2</span><div class="day"><strong><p>Put-put with Reagan 6PM</p></strong></div></td>
+               </tr>
+               <tr>
+                  <td class="weekend"><span class="date">3</span><div class="day"></div></td>
+                  <td><span class="date">4</span><div class="day"></div></td>
+                  <td><span class="date">5</span><div class="day"></div></td>
+                  <td><span class="date">6</span><div class="day"></div></td>
+                  <td><span class="date">7</span><div class="day"></div></td>
+                  <td><span class="date">8</span><div class="day"></div></td>
+                  <td class="weekend"><span class="date">9</span><div class="day"><strong><p>Thatcher EOY Dinner 7PM</p></strong></div></td>
+               </tr>
+               <tr>
+                  <td class="weekend"><span class="date">10</span><div class="day"></div></td>
+                  <td><span class="date">11</span><div class="day"><strong><p>Reading Day</p></strong></div></td>
+                  <td><span class="date">12</span><div class="day"><strong><p>Finals Week</p></strong></div></td>
+                  <td><span class="date">13</span><div class="day"><strong><p>Finals Week</p></strong></div></td>
+                  <td><span class="date">14</span><div class="day"><strong><p>Finals Week</p></strong></div></td>
+                  <td><span class="date">15</span><div class="day"><strong><p>Finals Week</p></strong></div></td>
+                  <td class="weekend"><span class="date">16</span><div class="day"><strong><p>Student Move Out</p></strong></div></td>
+               </tr>
+               <tr>
+                  <td class="weekend"><span class="date">17</span><div class="day"><strong><p>Student Move Out</p></strong></div></td>
+                  <td><span class="date">18</span><div class="day"><strong><p>Have a great summer!</p></strong></div></td>
+                  <td><span class="date">19</span><div class="day"></div></td>
+                  <td><span class="date">20</span><div class="day"></div></td>
+                  <td><span class="date">21</span><div class="day"></div></td>
+                  <td><span class="date">22</span><div class="day"></div></td>
+                  <td class="weekend"><span class="date">23</span><div class="day"></div></td>
+               </tr>
+               <tr>
+                  <td class="weekend"><span class="date">24</span><div class="day"></div></td>
+                  <td><span class="date">25</span><div class="day"></div></td>
+                  <td><span class="date">26</span><div class="day"></div></td>
+                  <td><span class="date">27</span><div class="day"></div></td>
+                  <td><span class="date">28</span><div class="day"></div></td>
+                  <td><span class="date">29</span><div class="day"></div></td>
+                  <td class="weekend"><span class="date">30</span><div class="day"></div></td>
+               </tr>
+               <tr>
+                  <td class="weekend"><span class="date">31</span><div class="day"></div></td>
+                  <td class="next"><span class="date">1</span><div class="day"></div></td>
+                  <td class="next"><span class="date">2</span><div class="day"></div></td>
+                  <td class="next"><span class="date">3</span><div class="day"></div></td>
+                  <td class="next"><span class="date">4</span><div class="day"></div></td>
+                  <td class="next"><span class="date">5</span><div class="day"></div></td>
+                  <td class="weekend next"><span class="date">6</span><div class="day"></div></td>
+               </tr>
+            </tbody>
+         </table>
+      </main>
+      <footer>
+         <p>&copy; Kirstyn Eppes | Legal Matters | A Squirrel</p>
+      </footer>
+   </body>
+</html>

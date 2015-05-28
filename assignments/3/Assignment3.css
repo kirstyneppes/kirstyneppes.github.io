@@ -52,7 +52,7 @@ nav ul li {
    transition: 300ms;
    border-right: 1px solid pink;
    line-height: 70px;
-   padding: 0 20px;
+   padding: 0 15px;
 }
 nav ul li:first-of-type
 {
