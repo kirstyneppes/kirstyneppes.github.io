@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Assignment 5: Adding a Row to a Table</title>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&amp;subset=latin,latin-ext">
+      <link rel="stylesheet" href="css/base.css">
+      <link rel="stylesheet" href="css/main.css">
+      <script src="js/addrow.js"></script>
+   </head>
+   <body>
+      <table>
+         <thead>
+            <tr>
+               <th colspan="3">Receipt</th>
+            </tr>
+            <tr>
+               <th>Qty</th>
+               <th>Description</th>
+               <th>Cost</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>1</td>
+               <td>Bag of Fuji apples</td>
+               <td>$10.00</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>Bag of almonds</td>
+               <td>$5.00</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>1-pint soy milk</td>
+               <td>$5.00</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>5-lb brown rice</td>
+               <td>$5.00</td>
+            </tr>
+         </tbody>
+      </table>
+      <form>
+         <div><label for="qty">Qty:</label> <input type="text" id="qty" autofocus></div>
+         <div><label for="description">Description:</label> <input type="text" id="description"></div>
+         <div><label for="cost">Cost:</label> <input type="text" id="cost"></div>
+         <div><button type="button">Add To Receipt</button></div>
+      </form>
+   </body>
+</html>

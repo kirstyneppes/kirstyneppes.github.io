@@ -1,0 +1,75 @@
+body {
+   padding: 24px;
+   font: 1rem "Open Sans", sans-serif;
+}
+
+table {
+   table-layout: fixed;
+   margin: 24px 0;
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+thead {
+   background-color: #eee;
+   font-size: 1.5rem;
+}
+
+thead > tr:nth-child(2) {
+   font-size: 1rem;
+}
+
+tfoot {
+   background-color: #eee;
+}
+
+tbody > tr:nth-child(odd) {
+   background-color: rgba(25,100,100,0.3);
+}
+
+tbody > tr > td:nth-child(1) {
+   width: 30px;
+   text-align: center;
+}
+
+tbody > tr > td:nth-child(2) {
+   width: 200px;
+}
+
+tbody > tr > td:nth-child(3) {
+   width: 52px;
+}
+
+td, th {
+   padding: 14px;
+   border: 1px solid black;
+}
+
+td:last-of-type {
+   text-align: right;
+}
+
+th {
+   font-weight: bold;
+}
+
+tfoot td[colspan="2"] {
+   text-align: right;
+   font-weight: bold;
+}
+
+form div {
+   margin: 12px 0;
+}
+
+label[for="qty"],
+label[for="description"],
+label[for="cost"] {
+   padding-right: 8px;
+}
+
+button {
+   margin-top: 8px;
+   border: 0;
+   padding: 20px;
+}
