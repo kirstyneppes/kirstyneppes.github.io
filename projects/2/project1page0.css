@@ -110,3 +110,10 @@ aside ul {
 aside ul li {
    padding: 3px;
 }
+#photos img {
+  display: none;
+}
+
+#photos .show {
+  display: inline;
+}
